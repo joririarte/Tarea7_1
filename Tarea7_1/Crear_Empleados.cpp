@@ -9,9 +9,9 @@
 
 using namespace std;
 
-string nombres = "C:\\Users\\JOR\\source\\repos\\Tarea7_1\\Tarea7_1\\nombres.txt";
-string apellidos = "C:\\Users\\JOR\\source\\repos\\Tarea7_1\\Tarea7_1\\apellidos.txt";
-string empleados = "C:\\Users\\JOR\\source\\repos\\Tarea7_1\\Tarea7_1\\empleados.dat";
+string nombres = "C:\\Users\\jiriartechamorro\\source\\repos\\joririarte\\Tarea7_1\\Tarea7_1\\nombres.txt";
+string apellidos = "C:\\Users\\jiriartechamorro\\source\\repos\\joririarte\\Tarea7_1\\Tarea7_1\\apellidos.txt";
+string empleados = "C:\\Users\\jiriartechamorro\\source\\repos\\joririarte\\Tarea7_1\\Tarea7_1\\empleados.dat";
 
 struct Empleado {
     char nombre[50];

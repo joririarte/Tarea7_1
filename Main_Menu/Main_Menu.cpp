@@ -18,14 +18,14 @@ int main()
         case 1://carga de empleados con el programa que crea una cantidad aleatoria
             system("cls");
             cout << "--> CREAR EMPLEADOS <--\n\n";
-            system("C:\\Users\\JOR\\source\\repos\\Tarea7_1\\x64\\Debug\\Crear_Empleados.exe");
+            system("C:\\Users\\jiriartechamorro\\source\\repos\\joririarte\\Tarea7_1\\x64\\Debug\\Crear_Empleados.exe");
             cout << endl;
             system("pause");
             break;
         case 2://lectura y procesamiento de los empleados cargados
             system("cls");
             cout << "--> PROCESAR DATOS DE EMPLEADOS <--\n\n";
-            system("C:\\Users\\JOR\\source\\repos\\Tarea7_1\\x64\\Debug\\Procesar_Empleados.exe");
+            system("C:\\Users\\jiriartechamorro\\source\\repos\\joririarte\\Tarea7_1\\x64\\Debug\\Procesar_Empleados.exe");
             cout << endl;
             system("pause");
             break;

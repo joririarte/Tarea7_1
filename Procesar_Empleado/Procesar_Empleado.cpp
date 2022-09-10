@@ -8,7 +8,7 @@
 using namespace std;
 
 //ruta al archivo
-string nArchivo = "C:\\Users\\JOR\\source\\repos\\Tarea7_1\\Tarea7_1\\empleados.dat";
+string nArchivo = "C:\\Users\\jiriartechamorro\\source\\repos\\joririarte\\Tarea7_1\\Tarea7_1\\empleados.dat";
 
 struct Empleado {
     char nombre[50];
@@ -54,7 +54,8 @@ int main()
     cout << "\n\nCantidad de empleados de la Categoria 2 (2001 a 3000): " << cat2;
     cout << "\nLa categoria 2 se lleva un presupuesto de: " << mCat2;
     cout << "\n\nCantidad de empleados de la Categoria 3 (+3000): " << cat3;
-    cout << "\nLa categoria 3 se lleva un presupuesto de: " << mCat3<<endl<<endl;
+    cout << "\nLa categoria 3 se lleva un presupuesto de: " << mCat3;
+    cout << "\n\nEl total general de la empresa es: " << mCat1 + mCat2 + mCat3 << endl << endl;
     return 0;
 }
 
