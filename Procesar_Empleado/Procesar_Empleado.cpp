@@ -30,7 +30,7 @@ int main()
     //almacenaran los montos de cada categoria
     float mCat1 = 0.f, mCat2 = 0.f, mCat3 = 0.f;
 
-    leerArchivoEmp(f_emp, nArchivo, empleados);
+    leerArchivoEmp(f_emp, "empleados.dat", empleados);
     cout << "\nLista de Empleados\n\n";
     mostrarEmpleados(empleados);
     //procesa la informacion de los empleados
